@@ -1,6 +1,7 @@
 # Currency Converter App
 
-Welcome to the Currency Converter App! This app allows users to convert currencies from around the world in real-time using the latest exchange rates.
+Welcome to the Currency Converter App! 
+Currency Converter App is a flutter based app. This app allows users to convert currencies from around the world in real-time using the latest exchange rates.
 
 ## Features
 
