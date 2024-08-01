@@ -13,11 +13,11 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         width: 2.0,
         style: BorderStyle.solid,
       ),
-      borderRadius: BorderRadius.circular(5),
+      borderRadius: BorderRadius.circular(10),
     );
 
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 78, 147, 107),
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -45,7 +45,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                   prefixIcon: const Icon(Icons.monetization_on_outlined),
                   prefixIconColor: const Color.fromARGB(179, 0, 0, 0),
                   filled: true,
-                  fillColor: const Color.fromARGB(255, 173, 177, 58),
+                  fillColor: Color.fromARGB(255, 187, 190, 187),
                   focusedBorder: border,
                   enabledBorder: border,
                 ),
@@ -67,6 +67,8 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
               },
               style: const ButtonStyle(
                 backgroundColor: WidgetStatePropertyAll(Colors.black),
+                foregroundColor: WidgetStatePropertyAll(Colors.white),
+                fixedSize: WidgetStatePropertyAll(Size(300, 70)),
               ),
               child: const Text('Convert'),
             ),
